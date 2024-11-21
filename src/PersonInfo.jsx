@@ -18,7 +18,7 @@ const PersonInfo = () => {
                 ))}
             </ul>
             {message && <p>{message}</p>}
-            <button onClick={() => setMessage("You clicked the button!")}>Promote</button>
+            <button onClick={() => setMessage("You  clicked the button!")}>Promote</button>
 
         </div>
     );
