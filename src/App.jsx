@@ -1,10 +1,12 @@
-// import React from 'react';
+import './App.css'
 import PersonInfo from './PersonInfo';
 
-const App = () => (
-  <div>
-    <PersonInfo />
-  </div>
-);
+const App = () => {
+  return (
+      <div>
+          <PersonInfo />
+      </div>
+  );
+};
 
-export default App;
+export default App
