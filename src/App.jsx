@@ -1,5 +1,5 @@
-import React from 'react';
-import PersonInfo from './components/PersonInfo';
+// import React from 'react';
+import PersonInfo from './PersonInfo';
 
 const App = () => (
   <div>

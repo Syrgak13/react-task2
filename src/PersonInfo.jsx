@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
 const PersonInfo = () => {
     const [message, setMessage] = useState("");
@@ -18,7 +18,8 @@ const PersonInfo = () => {
                 ))}
             </ul>
             {message && <p>{message}</p>}
-            <button onClick={() => setMessage("You clicked the button!")}>Show Message</button>
+            <button onClick={() => setMessage("You clicked the button!")}>Promote</button>
+
         </div>
     );
 };
